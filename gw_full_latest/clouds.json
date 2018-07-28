@@ -75,7 +75,13 @@
 			"script":"python CloudFireBase.py",
 			"type":"jsoncloud",			
 			"enabled":false
-		},		
+		},
+		{
+			"name":"loraserver.io cloud",
+			"script":"python CloudLoraserver.py",
+			"type":"iotcloud",
+			"enabled":false
+		},
 		{	
 			"name":"example template",
 			"script":"name of your script, preceded by the script launcher",
@@ -106,6 +112,12 @@
 			"script":"python CloudFireBaseAES.py",
 			"type":"iotcloud",			
 			"enabled":false			
+		},
+		{
+			"name":"loraserver.io cloud",
+			"script":"python CloudLoraserver.py",
+			"type":"iotcloud",
+			"enabled":false
 		}
 	],
 	"lorawan_encrypted_clouds" : [
@@ -126,6 +138,12 @@
 			"script":"python CloudFireBaseLWAES.py",
 			"type":"iotcloud",			
 			"enabled":false			
+		},
+		{
+			"name":"loraserver.io cloud",
+			"script":"python CloudLoraserver.py",
+			"type":"iotcloud",
+			"enabled":false
 		}
 	]	
 }
